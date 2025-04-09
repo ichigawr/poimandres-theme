@@ -61,6 +61,8 @@ function schema({ colors, styles }) {
       "activityBar.foreground": "${colors.gray}",
       "activityBarBadge.background": "${colors.focus}",
       "activityBarBadge.foreground": "${colors.offWhite}",
+      "activityBarTop.background": "${colors.bg}",
+      "activityBarTop.foreground": "${colors.gray}",
       "badge.background": "${colors.focus}",
       "badge.foreground": "${colors.offWhite}",
       "button.background": "${colors.focus}",
@@ -228,6 +230,9 @@ function schema({ colors, styles }) {
       "activityBar.activeBorder": "${colors.gray}",
       "activityBar.dropBorder": "${colors.gray}",
       "activityBar.inactiveForeground": "${colors.gray}66",
+      "activityBarTop.activeBorder": "${colors.gray}",
+      "activityBarTop.dropBorder": "${colors.gray}",
+      "activityBarTop.inactiveForeground": "${colors.gray}66",
       "breadcrumb.activeSelectionForeground": "${colors.offWhite}",
       "breadcrumb.background": "${colors.transparent}",
       "breadcrumb.focusForeground": "${colors.offWhite}",
@@ -1241,7 +1246,7 @@ function schema({ colors, styles }) {
       }
     ]
   }
-  `
+  `;
 }
 
 function svg({ colors }) {
